@@ -3,4 +3,4 @@
 !*.s
 !*.asm
 !*.gitignore
-
+!*.png

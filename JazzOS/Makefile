@@ -28,3 +28,6 @@ $(BUILD_DIR)/bootloader.bin:
 kernel: $(BUILD_DIR)/kernel.bin
 $(BUILD_DIR)/kernel.bin:
 	$(ASM) $(SRC_DIR)/kernel/main.asm -f bin -o $(BUILD_DIR)/kernel.bin
+
+clean:
+	rm -f $(BUILD_DIR)/kernel.bin $(BUILD_DIR)/bootloader.bin $(BUILD_DIR)/main.img
