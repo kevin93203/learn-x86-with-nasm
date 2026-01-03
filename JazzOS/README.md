@@ -52,3 +52,6 @@ to quit the qemu press `CTRL+A` and then press `X`
 - 使用**jeex**打開`build/main.img`後如下圖
 ![img_hex](./img_hex.png)
 - `ORG 0x7C00`和`BITS 16`是 **「組譯器虛擬指令」（Assembler Directives）**，它們的作用是告訴組譯器（NASM）「該如何編譯」後面的程式碼，而不是「要編譯出什麼」程式碼，所以不會被編譯到`bootloader.bin`裡
+
+### FAT Entry Even/Odd
+![fat_even_odd](./fat_even_odd.png)
