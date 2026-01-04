@@ -2,5 +2,8 @@
 !*/
 !*.s
 !*.asm
+!*.h
+!*.c
 !*.gitignore
 !*.png
+!*.sh
